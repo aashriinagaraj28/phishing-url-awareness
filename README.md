@@ -25,6 +25,15 @@ The results are clues for careful review, not a verdict about whether a link is 
 
 ## How to Run
 
+### Windows (easiest)
+
+1. Open the `phishing-url-awareness` folder in File Explorer.
+2. Double-click `run_checker.bat`.
+3. Type a sample URL when prompted and press Enter.
+4. Type `q` to quit, then press any key to close the window.
+
+### From a terminal
+
 Open a terminal in the `phishing-url-awareness` folder and run:
 
 ```text
@@ -69,15 +78,9 @@ The required five samples do not include a URL longer than 100 characters, so th
 
 ## Screenshots
 
-The genuine screenshot of the completed five-test table is included as `screenshots/test_results.png`. The sample-run screenshot is still pending and must be captured from a terminal before final submission:
+The genuine terminal run is shown in `screenshots/sample_run.png`. It includes the command, sample URL, results, and quit flow. The completed five-test table is in `screenshots/test_results.png`.
 
-1. Run the program in a terminal with `http://192.0.2.10/account` and capture the terminal area showing the command, input, and output as `screenshots/sample_run.png`.
-2. The completed test table is captured in `screenshots/test_results.png`.
-
-Do not create substitute images or present an image as proof of a run that did not happen.
-
-The sample-run screenshot will appear here after it is captured and saved as `screenshots/sample_run.png`.
-
+![Sample run](screenshots/sample_run.png)
 ![Test results](screenshots/test_results.png)
 
 ## Improvements
@@ -125,3 +128,4 @@ Follow these steps for a GitHub submission or to verify the public repository:
 4. Open the repository README and confirm both screenshots appear. If they do not, check the image paths and file names.
 5. Open the repository link in a private/incognito browser window and confirm it loads without signing in.
 6. Copy the public repository URL from the browser address bar for submission.
+
